@@ -1,0 +1,14 @@
+{
+  "contratos": [
+    { "id": 1, "cliente": "Clínica Vida", "fecha": "2026-04-01", "estado": "activo" },
+    { "id": 2, "cliente": "Empresa Salud", "fecha": "2026-04-03", "estado": "activo" },
+    { "id": 3, "cliente": "Laboratorio X", "fecha": "2026-04-05", "estado": "inactivo" },
+    { "id": 4, "cliente": "Clínica Central", "fecha": "2026-04-07", "estado": "activo" },
+    { "id": 5, "cliente": "Salud Plus", "fecha": "2026-04-10", "estado": "activo" },
+    { "id": 6, "cliente": "MediCorp", "fecha": "2026-04-12", "estado": "inactivo" },
+    { "id": 7, "cliente": "Hospital Norte", "fecha": "2026-04-15", "estado": "activo" },
+    { "id": 8, "cliente": "Clínica Sur", "fecha": "2026-04-18", "estado": "activo" },
+    { "id": 9, "cliente": "Red Salud", "fecha": "2026-04-22", "estado": "activo" },
+    { "id": 10, "cliente": "Centro Médico", "fecha": "2026-04-25", "estado": "activo" }
+  ]
+}

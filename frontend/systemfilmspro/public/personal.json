@@ -1,0 +1,49 @@
+{
+  "personal": [
+    { 
+      "id": 1, 
+      "nombre": "Pavel Perez Carbajal", 
+      "rol": "Camarografo", 
+      "disponibilidad": "Disponible", 
+      "rating": 4.5, 
+      "telefono": "987111222",
+      "imagen": "https://imgs.search.brave.com/Q4xNJoaRSGI9zD1aJlDvRRuN5UjfGRG_69DoFkOZgWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9ob21i/cmUtZGUtbW9kYS1m/cmVzY28tY29uLWdh/ZmFzLXNvbC10cmFq/ZS1uZWdyby1tb3Zp/JUMzJUE5bmRvc2Ut/eS1jYW1pbmFuZG8t/Z2VuaWFsLWZyZW50/ZS1hbC1mb25kby1h/enVsLTI5NDQ1MTYy/Mi5qcGc"
+    },
+    { 
+      "id": 2, 
+      "nombre": "Marco Torres", 
+      "rol": "Fotografo", 
+      "disponibilidad": "Ocupado", 
+      "rating": 4.8, 
+      "telefono": "987333444",
+      "imagen": "https://imgs.search.brave.com/XALzzyuS8-C--LEdmVt2vs1xxPiJ-yA48RtNRxSgj9w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vZ2VvcmdlcnVk/eS9nZW9yZ2VydWR5/MTUwNi9nZW9yZ2Vy/dWR5MTUwNjAwMDQ1/LzQwNTgwMzAyLWhv/bWJyZS1tYWR1cm8t/Y29uZmlkZW50ZS1l/bi10cmFqZS1taXJh/bmRvLWEtb3Ryby1s/YWRvLXNvYnJlLXVu/LWZvbmRvLW9zY3Vy/by1lc3R1ZGlvLWRl/LWRpc3Bhcm8uanBn/P3Zlcj02"
+    },
+    { 
+      "id": 3, 
+      "nombre": "Rosa Lima", 
+      "rol": "Editora", 
+      "disponibilidad": "Disponible", 
+      "rating": 4.2, 
+      "telefono": "987555666",
+      "imagen": "https://imgs.search.brave.com/ePJm675aZGAe5A_8qOxvkm-F3SEyH9feWiFu23lqBjA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vcGhvdG9zdml0/L3Bob3Rvc3ZpdDIw/MDcvcGhvdG9zdml0/MjAwNzA4OTUxLzE1/MTkxNTYyMi1ndWFw/by1ob21icmUtbWFk/dXJvLWVzbW9xdWlu/LWZvbmRvLW5lZ3Jv/LWNvbmNlcHRvLWRl/LWQlQzMlQURhLWRl/LWxhLWJvZGEuanBn/P3Zlcj02"
+    },
+    { 
+      "id": 4, 
+      "nombre": "Carlos Quispe", 
+      "rol": "Drone", 
+      "disponibilidad": "Ocupado", 
+      "rating": 4.6, 
+      "telefono": "987777888",
+      "imagen": "https://imgs.search.brave.com/19NZPWmnqjQveCv9_VmY7bVlzkpX7MsLVNPKnO4bgNI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vMTAwNzk5/NS8xMDA5NS9pLzQ1/MC9kZXBvc2l0cGhv/dG9zXzEwMDk1MDIx/NC1zdG9jay1waG90/by1zbWFydC1idXNp/bmVzc21hbi1pbi1i/bGFjay1wb3Npbmcu/anBn"
+    },
+    { 
+      "id": 5, 
+      "nombre": "Sofia Ramos", 
+      "rol": "Sonido", 
+      "disponibilidad": "Disponible", 
+      "rating": 4.3, 
+      "telefono": "987999000",
+      "imagen": "https://imgs.search.brave.com/19NZPWmnqjQveCv9_VmY7bVlzkpX7MsLVNPKnO4bgNI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vMTAwNzk5/NS8xMDA5NS9pLzQ1/MC9kZXBvc2l0cGhv/dG9zXzEwMDk1MDIx/NC1zdG9jay1waG90/by1zbWFydC1idXNp/bmVzc21hbi1pbi1i/bGFjay1wb3Npbmcu/anBn"
+    }
+  ]
+}

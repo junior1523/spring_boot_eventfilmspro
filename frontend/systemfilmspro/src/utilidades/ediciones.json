@@ -1,0 +1,24 @@
+{
+  "ediciones": [
+    { "id": 1, "paciente": "Juan", "fecha": "2026-04-01", "estado": "pendiente" },
+    { "id": 2, "paciente": "María", "fecha": "2026-04-02", "estado": "en proceso" },
+    { "id": 3, "paciente": "Carlos", "fecha": "2026-04-03", "estado": "completado" },
+    { "id": 4, "paciente": "Luis", "fecha": "2026-04-04", "estado": "pendiente" },
+    { "id": 5, "paciente": "Ana", "fecha": "2026-04-05", "estado": "en proceso" },
+    { "id": 6, "paciente": "Pedro", "fecha": "2026-04-06", "estado": "pendiente" },
+    { "id": 7, "paciente": "Lucía", "fecha": "2026-04-07", "estado": "completado" },
+    { "id": 8, "paciente": "Diego", "fecha": "2026-04-08", "estado": "en proceso" },
+    { "id": 9, "paciente": "Sofía", "fecha": "2026-04-09", "estado": "pendiente" },
+    { "id": 10, "paciente": "Mateo", "fecha": "2026-04-10", "estado": "en proceso" },
+    { "id": 11, "paciente": "Valeria", "fecha": "2026-04-11", "estado": "pendiente" },
+    { "id": 12, "paciente": "Andrés", "fecha": "2026-04-12", "estado": "completado" },
+    { "id": 13, "paciente": "Camila", "fecha": "2026-04-13", "estado": "en proceso" },
+    { "id": 14, "paciente": "Jorge", "fecha": "2026-04-14", "estado": "pendiente" },
+    { "id": 15, "paciente": "Elena", "fecha": "2026-04-15", "estado": "en proceso" },
+    { "id": 16, "paciente": "Raúl", "fecha": "2026-04-16", "estado": "pendiente" },
+    { "id": 17, "paciente": "Diana", "fecha": "2026-04-17", "estado": "completado" },
+    { "id": 18, "paciente": "Iván", "fecha": "2026-04-18", "estado": "en proceso" },
+    { "id": 19, "paciente": "Rosa", "fecha": "2026-04-19", "estado": "pendiente" },
+    { "id": 20, "paciente": "Hugo", "fecha": "2026-04-20", "estado": "en proceso" }
+  ]
+}

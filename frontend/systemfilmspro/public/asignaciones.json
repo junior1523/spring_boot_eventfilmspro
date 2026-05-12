@@ -1,0 +1,11 @@
+{
+  "asignaciones": [
+    { "id": 1, "evento_id": 1, "personal_id": 1, "rol_en_evento": "Camarógrafo principal" },
+    { "id": 2, "evento_id": 1, "personal_id": 2, "rol_en_evento": "Fotógrafa" },
+    { "id": 3, "evento_id": 1, "personal_id": 4, "rol_en_evento": "Drone" },
+    { "id": 4, "evento_id": 2, "personal_id": 2, "rol_en_evento": "Fotógrafa principal" },
+    { "id": 5, "evento_id": 2, "personal_id": 5, "rol_en_evento": "Sonido" },
+    { "id": 6, "evento_id": 3, "personal_id": 1, "rol_en_evento": "Camarógrafo" },
+    { "id": 7, "evento_id": 3, "personal_id": 6, "rol_en_evento": "Fotógrafa de apoyo" }
+  ]
+}

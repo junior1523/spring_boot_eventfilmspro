@@ -1,0 +1,8 @@
+{
+  "tiposEventos": [
+    { "id": 1, "nombre": "Matrimonio" },
+    { "id": 2, "nombre": "XV Años" },
+    { "id": 3, "nombre": "Corporativo" },
+    { "id": 4, "nombre": "Cumpleaños" }
+  ]
+}

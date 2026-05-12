@@ -1,0 +1,8 @@
+{
+  "pagos": [
+    { "id": 1, "contratoId": 1, "clienteId": 1, "monto": 55000, "metodoPago": "Transferencia", "estado": "Pagado", "fechaPago": "2026-04-04", "numeroPago": 2 },
+    { "id": 2, "contratoId": 2, "clienteId": 2, "monto": 55000, "metodoPago": "Transferencia", "estado": "Pendiente", "fechaPago": "2026-04-04", "numeroPago": 13 },
+    { "id": 3, "contratoId": 3, "clienteId": 3, "monto": 55000, "metodoPago": "Transferencia", "estado": "Deuda", "fechaPago": "2026-04-14", "numeroPago": 15 },
+    { "id": 4, "contratoId": 4, "clienteId": 2, "monto": 55000, "metodoPago": "Transferencia", "estado": "Pagado", "fechaPago": "2026-04-19", "numeroPago": 2 }
+  ]
+}

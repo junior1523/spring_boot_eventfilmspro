@@ -1,0 +1,16 @@
+{
+  "eventos": [
+    { "id": 1, "titulo": "Consulta", "fecha": "2026-04-01", "estado": "pendiente" },
+    { "id": 2, "titulo": "Cirugía", "fecha": "2026-04-03", "estado": "pendiente" },
+    { "id": 3, "titulo": "Control", "fecha": "2026-04-05", "estado": "completado" },
+    { "id": 4, "titulo": "Emergencia", "fecha": "2026-04-08", "estado": "pendiente" },
+    { "id": 5, "titulo": "Revisión", "fecha": "2026-04-10", "estado": "pendiente" },
+    { "id": 6, "titulo": "Consulta", "fecha": "2026-04-12", "estado": "pendiente" },
+    { "id": 7, "titulo": "Cirugía", "fecha": "2026-04-15", "estado": "completado" },
+    { "id": 8, "titulo": "Control", "fecha": "2026-04-18", "estado": "pendiente" },
+    { "id": 9, "titulo": "Consulta", "fecha": "2026-04-22", "estado": "pendiente" },
+    { "id": 10, "titulo": "Revisión", "fecha": "2026-04-25", "estado": "pendiente" },
+    { "id": 11, "titulo": "Emergencia", "fecha": "2026-04-28", "estado": "pendiente" },
+    { "id": 12, "titulo": "Control", "fecha": "2026-04-30", "estado": "pendiente" }
+  ]
+}

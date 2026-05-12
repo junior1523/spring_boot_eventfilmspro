@@ -1,0 +1,8 @@
+{
+  "contratos": [
+    { "id": 1, "eventoId": 1, "clienteId": 1, "monto": 55000, "estado": "activo", "fecha": "2026-04-04" },
+    { "id": 2, "eventoId": 2, "clienteId": 2, "monto": 55000, "estado": "activo", "fecha": "2026-04-04" },
+    { "id": 3, "eventoId": 3, "clienteId": 3, "monto": 55000, "estado": "pendiente", "fecha": "2026-04-14" },
+    { "id": 4, "eventoId": 4, "clienteId": 2, "monto": 55000, "estado": "pendiente", "fecha": "2026-04-19" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "clientes": [
+    { "id": 1, "nombre": "Ana García", "telefono": "987654321", "correo": "ana@gmail.com" },
+    { "id": 2, "nombre": "Luis Martínez", "telefono": "912345678", "correo": "luis@gmail.com" },
+    { "id": 3, "nombre": "TechCo S.A.", "telefono": "945678123", "correo": "techco@gmail.com" },
+    { "id": 4, "nombre": "Boda Ana & Carlos", "telefono": "998765432", "correo": "ana.carlos@gmail.com" }
+  ]
+}

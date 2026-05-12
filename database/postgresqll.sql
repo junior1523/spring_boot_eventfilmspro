@@ -3,7 +3,7 @@
 -- Use: psql -d eventfilms -f schema.sql
 -- ══════════════════════════════════════════════════════════════════════════════
 CREATE DATABASE eventFilmsPrincipal;
-\c eventFilmsPrincipal;
+\c eventFilmsPrincipal
 
 -- ── TIPOS ENUM ────────────────────────────────────────────────────────────────
 CREATE TYPE estado_evento        AS ENUM ('Sin Iniciar', 'En Proceso', 'Revisión', 'Completado', 'Entregado');

@@ -31,8 +31,13 @@ export default function ClientesForm({ contratoEdicion, setContratoEdicion, clie
 
             <label className="text-sm text-gray-600">Apellidos y Nombres</label>
             <Combobox
-                value={contratoEdicion?.cliente || null}
-
+                value={contratoEdicion?.cliente || { nombre: "" }}
+                onChange={(cliente) => {
+                    setContratoEdicion({
+                        ...contratoEdicion,
+                        cliente: cliente
+                    });
+                }}
                 onClose={() => setQuery("")}
             >
                 <div className="relative">
@@ -42,8 +47,11 @@ export default function ClientesForm({ contratoEdicion, setContratoEdicion, clie
                 py-1.5 pl-3 pr-8 text-sm text-gray-900
                 focus:outline-none focus:ring-2 focus:ring-blue-500
               "
-                        displayValue={(cliente) => cliente?.nombre}
-                        onChange={(e) => setQuery(e.target.value)}
+                        displayValue={(cliente) => cliente?.nombre || query}
+                        onChange={(e) => {
+                            setQuery(e.target.value);
+                            handleCliente("nombre", e.target.value);
+                        }}
                         placeholder="Buscar cliente..."
                     />
 

@@ -22,7 +22,9 @@ export default function Contratos() {
     contratoEdicion,
     setContratoEdicion,
     datosTablaFIltrado,
+    crearContrato,
     actualizarContrato,
+    eliminarContrato,
     clientes
   } = useContratos();
 
@@ -36,6 +38,53 @@ export default function Contratos() {
   const cerrarDrawer = () => {
     setAbrir(false);
     setContratoEdicion(null);
+  };
+
+  const aplanarDatos = (data) => {
+    return {
+      id: data.id,
+      apellidosNombres: data.cliente?.nombre || "",
+      dni: data.cliente?.dni || "",
+      telefono: data.cliente?.telefono || "",
+      nombreEvento: data.evento?.nombre || "",
+      direccion: data.evento?.direccion || "",
+      fechaInicio: data.evento?.fechaInicio || null,
+      fechaFin: data.evento?.fechaFin || null,
+      tipoEventoOtro: data.evento?.tipo || "",
+      rangoFilmacion: data.filmacion || {},
+      planPagos: { cuotas: data.pagos || [] },
+      observaciones: data.observaciones || "",
+      estado: data.estado || "Pendiente"
+    };
+  };
+
+  const desaplanarDatos = (data) => {
+    if (!data) return null;
+    return {
+      id: data.id,
+      cliente: {
+        nombre: data.apellidosNombres,
+        dni: data.dni,
+        telefono: data.telefono
+      },
+      evento: {
+        nombre: data.nombreEvento,
+        direccion: data.direccion,
+        fechaInicio: data.fechaInicio,
+        fechaFin: data.fechaFin,
+        tipo: data.tipoEventoOtro
+      },
+      filmacion: data.rangoFilmacion || {},
+      pagos: data.planPagos?.cuotas || [],
+      observaciones: data.observaciones,
+      estado: data.estado
+    };
+  };
+
+  const handleEliminar = async (id) => {
+    if (window.confirm("¿Estás seguro de eliminar este contrato?")) {
+      await eliminarContrato(id);
+    }
   };
 
   const columnas = useMemo(() => [
@@ -56,7 +105,7 @@ export default function Contratos() {
 
           <button
             className="text-gray-500 hover:text-gray-900"
-            onClick={() => setContratoEdicion(dato)}
+            onClick={() => setContratoEdicion(dato.original)}
           >
             <FaRegEdit size={20} />
           </button>
@@ -65,13 +114,16 @@ export default function Contratos() {
             <FaRegEye size={20} />
           </button>
 
-          <button className="text-red-500 hover:text-red-700">
+          <button 
+            className="text-red-500 hover:text-red-700"
+            onClick={() => handleEliminar(dato.id)}
+          >
             <MdDeleteOutline size={20} />
           </button>
         </div>
       )
     }
-  ], [setContratoEdicion]);
+  ], [setContratoEdicion, eliminarContrato]);
 
   return (
     <div className="w-full flex items-center justify-center">
@@ -90,13 +142,15 @@ export default function Contratos() {
           titulo={modoEdicion ? "Editar contrato" : "Nuevo contrato"}
         >
           <ContratoForm
-            initialData={contratoEdicion || {}}
+            initialData={desaplanarDatos(contratoEdicion) || {}}
             clientes={clientes}
-            onSubmit={(data) => {
+            onSubmit={async (data) => {
+              const datosMapeados = aplanarDatos(data);
+              
               if (modoEdicion) {
-                actualizarContrato(data);
+                await actualizarContrato(datosMapeados);
               } else {
-                console.log("crear", data);
+                await crearContrato(datosMapeados);
               }
 
               cerrarDrawer();
